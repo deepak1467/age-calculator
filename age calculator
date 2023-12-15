@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int agecalc(int x , int y)
+{
+int z = y - x;
+return z;
+}
+int main(){
+int currentyear;
+int birthyear;
+cout << " enter currentyear: ";
+cin >> currentyear;
+cout << "enter birth year: ";
+cin >> birthyear;
+cout << " your age is: " << agecalc(birthyear,currentyear) << endl;
+return 0;
+}
